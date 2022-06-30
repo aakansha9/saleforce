@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar{
+    border: 2px solid rgb(40, 155, 226);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.web .web-logo{
+    padding: 5px;
+}
+.web span{
+    margin-left: 110px;
+    padding: 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.web span a{
+    text-decoration: none;
+    color: black;
+}
+
+.detail{
+    margin: 0px 5px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    
+}
+.detail .login-logo{
+    width: 30px;
+    
+    
+}
+.detail span a  .fa-solid {
+    margin: 0px 10px;
+}
+.web-btn{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(0, 2, 0);
+    animation: 0.5s  web-btn infinite;
+}
+/*@keyframes web-btn{
+    0%{
+        background-color: aqua;
+        color: brown;
+    }
+    25%{
+        background-color: yellow;
+        color: blue;
+        font-weight: bolder;
+    }
+} */
+
+                                   /*        section-1                */
+.section-1{
+    border: 2px solid rgb(236, 231, 231);
+    background-image: url("./image/section-1.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}      
+.section-1 .heading1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}  
+.btn{
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.register-btn{
+    background-color: rgb(7, 7, 123);
+    border: 1px solid rgb(6, 6, 124);
+}      
+
+                                  /*      SECTION - 2    */
+.section-2{
+    display: flex;
+     align-content: center;
+     justify-content: space-between;
+     gap: 10px;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 50px 110px;
+}
+.text p{
+    margin: 15px 0px;
+}
+.section2-btn{
+    display: flex;
+    margin-top: 20px;
+
+}
+.green-btn{
+    background-color: green;
+    border: 1px solid green;
+}
+.demo-btn{
+    margin-left: 20px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.text-2{
+    width: 50%;
+   overflow: hidden;
+}
+
+
+                                            /*  section-3----*/
+.section-3{
+    border: 1px solid white;
+  }
+.section-3  h1{ 
+    margin: 30px 0px;
+    text-align: center;
+  }
+.section3-cards{
+     display: flex;
+     gap: 50px;
+     align-items: center;
+     justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.first-card{
+    width: 235px;
+}
+    
+                       /*   SEction-4   */
+.section-4{
+    border: 1px solid white;
+}
+.section-4 h1{
+    margin: 30px 0px;
+    text-align: center;
+}
+.section4-cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-2{
+    display: flex;
+    gap: 30px;
+}
+                              /* Section -5  */
+
+.section-5{
+    border: 1px solid white;
+}
+.section-5 h1{
+    margin: 30px 0px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+.content-1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+.content-1 p{
+    color: gray;
+
+}
+.content-img{
+       width: 700px;
+       margin: 0px 40px;
+       overflow: hidden;
+}
+.content-btn{
+    margin-top: 30px;
+    color:white;
+    background-color: blue;
+    border: 1px solid blue;
+    margin-left: 100px;
+}
+
+                
+                             /*    Section -6   */
+
+ .section-6{
+    border: 1px solid white;
+ }                   
+.section-6 h1{
+    margin: 30px 0px;
+    text-align: center;
+}
+.resources{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.resources-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.resources-img{
+    width: 750px;
+    
+
+}
+.span{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 10px;
+}
+.resources-btn{
+    margin: 10px 0px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.resources-card{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-img{
+    width: 250px;
+}
+                 
+                                       /*section-7*/
+
+
+ .section-7{
+    border: 1px solid white;
+ }                           
+ .section-7 h1{
+    margin: 30px 0px;
+    text-align: center;
+ }
+ .section7-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }   
+ .cards-icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .center{
+    text-align: center;
+ }
+ .section-7 a{
+    text-decoration: none;
+}
+.product{
+    margin: 60px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.product-1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.product-1 .bird{
+    width: 80px;
+}
+.product-btn{
+    color: blue;
+    background-color: white;
+    border: 1px solid gray;
+}
+.product-btn:hover{
+    color: white;
+    background-color: blue;
+}
+            
+                          /*section 8*/
+ .section-8{
+    border: 1px solid white;
+ }  
+ .section-8 h1{
+    margin: 30px 0px;
+    text-align: center;
+ }  
+ .section8-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .customer-icon{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+ }   
+ .customer-icon p{
+    text-align: center;
+ } 
+ .section-8 .p{
+    margin: 70px 0px;
+    text-align: center;
+ }   
+ 
+
+ .a{
+    color: blue;
+ }  
+
+                             /* section-9 */
+.section-9{
+    border: 1px solid white;
+}                         
+.section9-text{
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+.section9-text-2{
+     display: flex;
+     flex-direction: column;
+       gap: 20px;
+       font-size: 17px;
+}
+.a1{
+    color: blue;
+    margin-left: 50px;
+}
+
+             /*section-10 */
+ .section-10{
+    margin: 40px 0px;
+    border: 1px solid white;
+    display: flex;
+     gap: 10px;
+    justify-content: space-around;
+    margin: 30px 40px;
+
+ }   
+
+ .list{
+         display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-around;
+ } 
+ .list ul li{
+    margin: 15px 0px;
+    display: flex;
+    padding: 10px;
+    list-style: none;
+ }
+ 
+ .main1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .social-media a i{
+    padding: 5px 10px;
+margin-bottom: 1px;
+font-size: 30px;
+ }
+
+                            /*section-11*/
+.section-11{
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+
+}
+.footer{
+    margin: 50px 0px;
+    display: flex;
+    gap: 50px;
+}
+.footer-btn{
+    margin-left: 80px;
+    background-color:blue;
+    border: 1px solid  white;
+}
+
+.section-11 a{
+    padding: 0px 10px;
+    color: rgb(17, 152, 206);
+}
+ .link{
+    margin: 10px 0px;
+ }
+ @media(max-width:1000px){
+    *{
+        display: block;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
